@@ -1,9 +1,11 @@
 #include<stdio.h>
-/*main -Shows the line "Programming is like building
- * a multilingual puzzle" followed by a new line*/
+/*
+  main -Shows the line "Programming is like building
+  a multilingual puzzle" followed by a new line
+ */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
+puts("\"Programming is like building a multilingual puzzle");
 
 return (0);
 }
