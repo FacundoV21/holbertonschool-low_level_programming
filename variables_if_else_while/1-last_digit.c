@@ -2,8 +2,8 @@
 #include<stdio.h>
 #include<time.h>
 /**
- * main -Prints the line \"with proper grammar, but the outcome is a piece of
- * art,\"
+ * main -Checks if the last digit of a random number is higher or lower than
+ * 5 and prints an output in consecuence
  *
  * Return: Always 0 (Success)
  */
