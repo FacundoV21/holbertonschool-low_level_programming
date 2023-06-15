@@ -1,7 +1,6 @@
 #include<stdio.h>
 /**
- * main -Prints the line \"with proper grammar, but the outcome is a piece of
- * art,\"
+ * main -Prints the size of several data types in different lines
  *
  * Return: Always 0 (Success)
  */
