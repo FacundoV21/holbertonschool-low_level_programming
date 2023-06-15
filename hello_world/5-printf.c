@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- * main -Prints the line \"with proper grammar, but the outcome is a piece of art,\" *
+ * main -Prints the line \"with proper grammar, but the outcome is a piece of
+ * art,\"
  *
  * Return: Always 0 (Success)
  */
