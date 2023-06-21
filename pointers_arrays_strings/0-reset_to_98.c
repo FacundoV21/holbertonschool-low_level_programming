@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - uptdates the value the pointer points at to 98
- *
+ * @n: input
  *Return: always 0
  */
 
