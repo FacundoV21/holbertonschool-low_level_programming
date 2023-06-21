@@ -2,7 +2,8 @@
 
 /**
  * swap_int - uptdates the value the pointer points at to 98
- *
+ * @a: First input
+ * @b: Second input
  *Return: always 0
  */
 
