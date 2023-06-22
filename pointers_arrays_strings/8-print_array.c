@@ -3,6 +3,7 @@
 /**
  * print_array - prints an array of ints
  * @*a: array input
+ * @a: array
  * @n: size of the array
  */
 
