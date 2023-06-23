@@ -3,6 +3,7 @@
 /**
  * _memset - fills memory with a constant byte
  * @*s: string input
+ * @s: string point
  * @b: byte input
  * @n: number of bytes to edit
  * Return: pointer to string
