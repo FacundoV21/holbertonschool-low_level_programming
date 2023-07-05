@@ -5,6 +5,7 @@
  * free_grid - frees an array previously created
  * @height: the height of the array
  * @**grid: the pointer to the array
+ * @grid: value of **grid
  * Return: always 0
  */
 
