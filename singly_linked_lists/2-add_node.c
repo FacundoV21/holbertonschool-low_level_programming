@@ -21,6 +21,9 @@ list_t *add_node(list_t **head, const char *str)
 	else
 		sup = strdup(str);
 
+	if (link == NULL)
+		return (NULL);
+
 	link = malloc(sizeof(list_t));
 
 	if (link == NULL)
