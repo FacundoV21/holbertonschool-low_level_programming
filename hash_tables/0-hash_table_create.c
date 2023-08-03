@@ -26,5 +26,4 @@ hash_table_t *hash_table_create(unsigned long int size)
 	tab->array = arr;
 
 	return (tab);
-
 }
