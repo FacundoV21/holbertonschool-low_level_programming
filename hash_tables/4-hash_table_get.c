@@ -12,16 +12,16 @@
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
     int ub;
-	hash_node_t *move;
+    hash_node_t *move;
 
     if (key == NULL || *key == '\0' || ht == NULL)
-		return (0);
+        return (0);
 
     ub = key_index((const unsigned char *)key, ht->size);
-	move = ht->array[ub];
+    move = ht->array[ub];
 
     while (move != NULL && strcmp(move->key, key) != 0)
-		move = move->next;
+        move = move->next;
 
     if (move == NULL)
         return (NULL);
