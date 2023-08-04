@@ -8,13 +8,12 @@
  * Return: value associated with the element or NULL if key wasnt found
  */
 
- void hash_table_print(const hash_table_t *ht)
- {
-	long unsigned int ub = 0;
+void hash_table_print(const hash_table_t *ht)
+{
+	unsigned long int ub = 0;
 	char n = 0;
 	hash_node_t *move;
 
-	
 	if (ht != NULL)
 	{
 		printf("{");
@@ -33,5 +32,4 @@
 		}
 		printf("}\n");
 	}
-	
- }
+}
