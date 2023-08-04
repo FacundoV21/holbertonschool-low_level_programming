@@ -11,20 +11,20 @@
 
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
-    int ub;
-    hash_node_t *move;
+	int ub;
+	hash_node_t *move;
 
-    if (key == NULL || *key == '\0' || ht == NULL)
-        return (0);
+	if (key == NULL || *key == '\0' || ht == NULL)
+		return (0);
 
-    ub = key_index((const unsigned char *)key, ht->size);
-    move = ht->array[ub];
+	ub = key_index((const unsigned char *)key, ht->size);
+	move = ht->array[ub];
 
-    while (move != NULL && strcmp(move->key, key) != 0)
-        move = move->next;
+	while (move != NULL && strcmp(move->key, key) != 0)
+		move = move->next;
 
-    if (move == NULL)
-        return (NULL);
-    else
-        return (move->value);
+	if (move == NULL)
+		return (NULL);
+	else
+		return (move->value);
 }
